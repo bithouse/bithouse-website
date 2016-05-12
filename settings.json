@@ -1,0 +1,7 @@
+{
+  "galaxy.meteor.com": {
+    "env": {
+      "MONGO_URL": "mongodb://main:cryptoequity@ds021650.mlab.com:21650/bithouse-test"
+    }
+  }
+}

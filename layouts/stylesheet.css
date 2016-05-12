@@ -1,0 +1,42 @@
+.wrapper {
+  text-align:  center;
+  margin: 100px;
+  width: auto;
+}
+body {
+  display: block;
+  margin: 0;
+  background-color: #202025;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  color: white;
+}
+#header {
+  position: absolute;
+  top: 0;
+}
+h1 {
+  font-weight: 300;
+  font-size: 34px;
+}
+
+.whiteBox {
+  text-align:  center;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 0 1px white;
+  margin: 1px;
+  color: #202025;
+}
+.logoLink {
+  color: #4FFF33;
+  text-decoration: none;
+  padding-right: 5px;
+  font-size: 40px;
+  float: right;
+}
+.logoLink:hover {
+  color: black;
+  background-color: #4FFF33;
+  box-shadow: 0 0 1px #4FFF33;
+}
