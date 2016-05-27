@@ -3,6 +3,18 @@
   margin: 100px;
   width: auto;
 }
+.wrapper-left {
+  text-align:  left;
+  margin: 0 100px 0 100px;
+  width: auto;
+}
+.block {
+  color: #202025;
+  margin-top: -50px;
+  text-align: left;
+  background-color: #4FFF33;
+}
+
 body {
   display: block;
   margin: 0;
@@ -19,15 +31,30 @@ body {
 #logo {
   margin-bottom: -2px;
   float: left;
+  height: 48px;
 }
 #logo:hover {
+  background-color: #4FFF33;
+  box-shadow: 0 0 1px #4FFF33;
+}
+.menu {
+  font-size: 35px;
+  color: #4FFF33;
+  float: left;
+  text-decoration: none;
+  font-weight: 900;
+  padding: 5px;
+}
+.menu:hover {
+  color: #202025;
+  padding-bottom: 6px;
   background-color: #4FFF33;
   box-shadow: 0 0 1px #4FFF33;
 }
 
 h1 {
   font-weight: 300;
-  font-size: 34px;
+  font-size: 38px;
 }
 
 .whiteBox {
@@ -46,7 +73,7 @@ h1 {
   float: right;
 }
 .logoLink:hover {
-  color: black;
+  color: #202025;
   background-color: #4FFF33;
   box-shadow: 0 0 1px #4FFF33;
 }
