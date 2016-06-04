@@ -5,3 +5,4 @@ Router.route('/', function () {
 });
 
 Router.route('/about');
+Router.route('/contact');
