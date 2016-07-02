@@ -1,4 +1,4 @@
-if (Meteor.isClient) {
+if (Meteor.isServer) {
 }
 Router.route('/', function () {
   this.render('Home');
